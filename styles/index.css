@@ -1,0 +1,258 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+}   
+
+.content {
+    padding: 4rem 7.3rem 6rem 7.3rem;
+    height: 100%;
+    overflow: hidden;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    width:min-content;
+}
+
+.menu > img {
+    width: 16rem;
+    height: auto;
+}
+
+.menu .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 10rem;
+} 
+
+.menu .links a.not-last {
+    margin-right: 6rem;
+}
+
+.menu .links a h3 {
+    color: black;
+    font-family: 'Open Sans', serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+header .divisor {
+    margin-top: 2rem;
+
+    width: 50.805rem;
+    height: 1px;
+    background: #000;
+}
+
+#bg {
+    position: absolute;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#left {
+    height: 80vh;
+    margin-top: 6rem;
+    justify-content: space-between;
+}
+
+#left .collection img {
+    width: 20rem;
+}
+
+#left .slider {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    margin-top: 9rem;
+}
+
+#left .slider .ball1 {
+    width: 1.1rem;
+    height: 1.1rem;
+    clip-path: circle();
+    background: black;
+
+    margin-right: 1.3rem;
+}
+
+#left .slider .ball2 {
+    width: .9rem;
+    height: .9rem;
+    clip-path: circle();
+    background: var(--grey);
+}
+
+#left .left-bottom  {
+    position: absolute;
+    bottom: 6rem;
+}
+
+
+#left .left-bottom > img {
+    height: 9.5rem;
+}
+
+#bg {
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    left: calc(50vw - 17rem);
+    bottom: -1rem;
+}
+
+#bg .avatar > img {
+    height: 51rem;
+}
+
+#bg .glass-wrapper {
+    background: rgba(255, 255, 255, 0.05);
+
+    /* Ellipse 2 */
+    width: 30rem;
+    height: 12rem;
+    margin-left: -10.5rem;
+    margin-bottom: -10rem;
+
+    background: linear-gradient(85.96deg, rgba(255, 255, 255, 0) -20.51%, rgba(255, 255, 255, 0.05) 26.82%, rgba(255, 255, 255, 0) 65.65%), rgba(196, 196, 196, 0.05);
+    box-shadow: inset 0px -2px 1px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;   
+    justify-content: center; 
+}
+
+#bg .glass-wrapper > img {
+    height: 5rem;
+}
+
+.bg-decor h1 {
+    font-family: 'VT323', monospace;
+    font-weight: 400;
+    font-size: 40rem;
+    letter-spacing: -2rem;
+    color: white;
+}
+
+.bg-decor .top,
+.bg-decor .bottom {
+    position: absolute;
+}
+
+.bg-decor .top {
+    top: -12.5rem;
+    right: 35rem;
+    z-index: -1;
+    transform: rotate(90deg);
+}
+
+.bg-decor .bottom {
+    bottom: -10rem;
+    left: 27rem;
+    z-index: -1;
+
+    transform: rotate(90deg);
+}
+
+#right {
+    height: 100vh;
+    
+    justify-content: space-between;
+}
+
+#right button {
+    position: absolute;
+    right: 7.3rem;
+    bottom: 6rem;
+}   
+
+#right .cart-wrapper {
+    position: absolute;
+    right: 7.3rem;
+    top: 0;
+
+    background: white;
+    padding: 2.5rem 2rem 1.5rem 2rem;
+}
+
+#right .cart-wrapper > img {
+    width: 2.5rem;
+}
+
+#right .cart-wrapper .cart-counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 1.2rem;
+
+    background: black;
+    clip-path: circle();
+    padding: .5rem;
+}
+
+#right .cart-wrapper .cart-counter p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+
+.orange-decor {
+    display: flex;
+
+    position: absolute;
+
+    right: 22rem;
+    top: 25rem;
+}
+
+
+.orange-decor .square {
+    width: .5rem;
+    height: .5rem;
+
+    margin-top: .35rem;
+    margin-right: 1.3rem;
+
+    background: var(--orange);
+    transform: rotate(45deg);
+}
+
+.orange-decor > p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+
+    letter-spacing: -0.03rem;
+}
+
+.text-decor {
+    position: absolute;
+    right: 7.3rem;
+    bottom: 20rem;
+}
+
+.text-decor p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8rem;
+    font-weight: 600;
+
+    letter-spacing: -0.03rem;
+    text-align: end;
+}
