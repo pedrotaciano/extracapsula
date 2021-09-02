@@ -113,7 +113,7 @@ header .divisor {
 }
 
 #bg .avatar > img {
-    height: 51rem;
+    height: max(51rem, 80vh);
 }
 
 #bg .glass-wrapper {
@@ -219,7 +219,7 @@ header .divisor {
     position: absolute;
 
     right: 22rem;
-    top: 25rem;
+    bottom: 33rem;
 }
 
 
