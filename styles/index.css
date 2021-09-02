@@ -219,7 +219,7 @@ header .divisor {
     position: absolute;
 
     right: 22rem;
-    bottom: 33rem;
+    bottom: max(32rem, 50vh);
 }
 
 
